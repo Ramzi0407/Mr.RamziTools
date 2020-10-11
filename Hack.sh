@@ -34,13 +34,11 @@ read -p "Pilih mana : " pil;
 #batas
 if [ $pil = 1 ]
 then
-cd 'JanganDibuka!!!!!'
-sh Tools-Lengkap.sh
+sh JanganMasukBahaya.sh
 fi
 #batas
 if [ $pil = 2 ]
 then
-cd 'JanganDibuka!!!!!'
 sh 'Jangan Dibuka.sh'
 fi
 #batas
